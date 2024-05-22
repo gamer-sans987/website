@@ -35,11 +35,11 @@ function lot(){
 }
 
 function friend(){
-    window.location.href = "./rede social (chats).html"
+    window.location.href = "../@13954"
 }
 
 function friends(){
-    window.location.href = "./rede social (friends).html"
+    window.location.href = "../@me"
 }
 
 function loginkey(un, pw){
