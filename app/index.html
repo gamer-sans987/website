@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <head>
-  
+<link rel="stylesheet" href="./sources/scripts/CSS/styleRS.css">
 </head>
 <body>
-  
+    <section class="login">
+        <h1>Log In</h1>
+        <div>
+            <div>
+                <input name="cx" id="cx" placeholder="Username" class="ac" onkeydown="loginkey(cx.value, cx1.value)">
+            </div>
+            <div>
+                <input type="password" name="cx" id="cx1" placeholder="Password" class="ac" onkeydown="loginkey(cx.value, cx1.value)">
+            </div>
+            <div name="dv" id="dv" style="color: rgb(255, 25, 25);"></div>
+            <div>
+                <input type="button" onclick="login(cx.value, cx1.value)" name="bt" id="bt" value="Login" class="loginb login">
+            </div>
+        </div>
+    </section>
+    <script src=".\sources\scripts\JS\redeSocial.js"></script>
 </body>
