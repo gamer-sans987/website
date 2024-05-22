@@ -1,1 +1,47 @@
-
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="../../sources/scripts/CSS/styleRS.css">
+</head>
+<body>
+    <div class="container">
+        <div name="chats" class="btctn side">
+            <div>
+                <button type="button" class="friends" id="fds">
+                    <img src="..\..\sources\img\add-friend.png" width="25px">
+                    <span>Amigos</span>
+                </button>
+            </div>
+            <div class="chats">
+                <button type="button" class="friend" id="fd1">
+                    <img src="..\..\sources\img\avatar.jpg" width="25px" class="user">
+                    <span>Exemple</span>
+                </button>
+            </div>
+            <div class="Logout">
+                <button type="button" class="lt" id="lt">
+                    <img src="..\..\sources\img\logout.png" width="35px" >
+                    <span>Log out</span>
+                </button>
+            </div>
+        </div>
+        <div name="chat" class="side ct" id="ct">
+            <div class="ctx">
+                <div class="texts" id="tx">
+                    <div id="msg" class="textconteiner"></div>
+                </div>
+                <div class="smsg container" id="smsg">
+                    <input type="text" class="text side" id="cb" onkeydown="sendkey(cb.value)">
+                    <button class="send" onclick="send(cb.value)"> <img src="..\..\sources\img\Send_Icon.png" width="25px"></button>
+                </div>
+            </div>
+        </div>
+        <div name="info" class="side info">
+            
+                <img src="..\..\sources\img\avatar.jpg" class="user" width="100px">
+                <br>
+                <h2>Exemple - <p1>Offline</p1></h2>
+            
+        </div>
+    </div>
+    <script src="../../sources/scripts/JS/redeSocial.js"> </script>
+</body>
