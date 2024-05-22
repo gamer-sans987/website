@@ -9,16 +9,14 @@ var dv = window.document.getElementById("dv");
 var fd1 = window.document.getElementById("fd1");
 var fdl = window.document.getElementById("fdl");
 var fds = window.document.getElementById("fds");
-var lt = window.document.getElementById("lt")
+var lt = window.document.getElementById("lt");
 var msg = window.document.getElementById("msg");
 var smsg = window.document.getElementById("smsg");
 var tx = window.document.getElementById("tx");
 
-lt.addEventListener('click', lot)
+lt.addEventListener('click', lot);
 fd1.addEventListener('click', friend);
-fds.addEventListener('click', friends)
-window.addEventListener('resize', uw);
-window.addEventListener('resize', uh)
+fds.addEventListener('click', friends);
 
 const un = "ADMIN";
 const pw = "12345";
@@ -31,15 +29,15 @@ let num = 2;
 let i = 1; 
 
 function lot(){
-    window.location.href = "../.."
+    window.location.href = "../"
 }
 
 function friend(){
-    window.location.href = "../@13954"
+    window.location.href = "./@139534"
 }
 
 function friends(){
-    window.location.href = "../@me"
+    window.location.href = "./@me"
 }
 
 function loginkey(un, pw){
